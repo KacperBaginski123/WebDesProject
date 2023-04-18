@@ -1,0 +1,101 @@
+nav {
+    background-color: lightskyblue;
+    padding: 5px;
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li   {
+    list-style-type: none;
+    background-color: rgb(14, 127, 209);
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 10px
+}
+nav ul li a {
+
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover
+{ background-color: lightblue}
+.light_blue  {
+    background-color: lightskyblue;
+    padding: 10px
+}
+article, h2 {
+    text-align: center;
+    font-size: 1.2em;
+}
+.contact_detail {
+    text-align: center;
+    margin: 15px;
+    font-style: italic;
+    font-weight: 900;
+}
+.contact_form {
+    margin: 15px 200px;
+    padding: 20px;
+    border: black solid 1px;
+    background: white;
+    min-height: 500px;
+}
+.required {
+    font-weight:bold;
+    color:red;      
+}
+footer {
+    padding: 0;
+    margin: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: lightskyblue;
+}
+footer p {
+    text-align: center;
+    color: white;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 5%;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.videoContent {
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    text-align: center;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+} 
+footer {
+    margin-top: auto;
+}
+.align h3 {
+    text-align: left;
+}
+.background {
+    background-image: url(../images/allengaelsbadge.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size:contain;
+}
+.fontcolor h2 p {
+    color: black;
+}

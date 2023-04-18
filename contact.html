@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--This is comments
+Author Kacper Baginski
+Date Created 10/3/23
+Purpose : Allen Gaels GAA Website - Contacts Page
+Modifications :
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8" /> <!--8-bit charachter encoding capable of encoding all possible charachters-->
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+
+        <title>Allen Gaels GAA </title>
+        <link rel="stylesheet" type="text/css" href="style/stylesheet.css">
+        <link rel="icon" href="images/favicon.ico.png" type="image/gif" sizes="16x16">
+        
+
+    </head>
+    <body> <!--Body Tag Start of Body section display on screen -->
+        <header class="light_blue">  
+            <!-- inline styling for image to the logo -->
+            <img style="float:left; margin-right:10px;" src="images/allengaelsbadge.jpg" alt="logo" width ="110" height="100">
+            <h1> Allen Gaels GAA Club</h1>
+               
+            <nav>
+                <ul>
+                    <li> <a href="index.html"> Home </a></li>
+                    <li> <a href="fixturesresults.html"> Fixtures & Results</a></li>
+                    <li> <a href="news.html"> Latest News</a></li>
+                    <li> <a href="history.html"> History</a></li>
+                    <li id="active"> <a href="contact.html"> Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+            <section class="contact_detail">
+        <main class="contact_form">
+        <header>
+            <p> Any queries or feedback please Complete and Submit </p>
+        </header>
+                <h3>If any queries please fill out the form below</h3>
+                    <label for="first_name">First name:<span class="required">*</span></label>
+                    <input type="text" name="first_name" id="first_name" autofocus required><br>
+                    <label for="last_name">Last name:<span class="required">*</span></label>
+                    <input type="text" name="last_name" id="last_name" required><br>
+                    <label for="phone_number">Phone Number:<span class="required">*</span></label>
+                    <input type="text" name="phone_number" id="phone_number" required><br>
+                    <label for="email">Email:<span class="required">*</span></label>
+                    <input type="email" name="email" id="email" required placeholder="@gmail.com"><br>
+                    <label for="message">Query : </label>
+                    <textarea cols="40"rows="6" id="message" name="message" placeholder="Your message must be less than 5000 charachters" data-maxlength="5000"></textarea>
+                    <input type="submit" name="submit" id="button" value="Submit">
+                    <input type="reset" name="reset" id="reset">
+                </form>
+                <p style="margin-left: 138px"> <span class="required">*</span> <em> indicates a required field </em></p>
+            </section>
+        </main>
+        <footer> <!-- Footer grouping content for the bottom of the screen and will need css to place at the bottom -->
+            <p>&copy;2023 Allen Gaels GAA</p>
+        </footer>
+    </body>
+</html>
+        
